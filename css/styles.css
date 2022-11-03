@@ -1,0 +1,40 @@
+
+
+@font-face {
+  font-family: orangekid;
+  src: url(orangekid.woff);
+}
+body {
+ background-image: url("../images/store.webp");
+ background-position: center;
+ background-size: 100vh;
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+h1 {
+font-family: orangekid, arial;
+color: white;
+font-size: 45px;
+display: block;
+align-items: center;
+
+}
+
+a {
+color: yellow;
+font-family: orangekid, arial;
+font-size: 25px;
+
+}
+
+div {
+            position: absolute;
+            top: 0;
+            height: 120px;
+            width: 110px;
+            background: #15a5ed;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 15px 15px 15px 15px;
+            }
