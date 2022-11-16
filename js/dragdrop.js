@@ -1,3 +1,4 @@
+
 divs = document.getElementsByTagName("div");
             for (div of divs) div.onmousedown = onMouseDown;
 
