@@ -27,13 +27,18 @@ font-size: 25px;
 
 }
 
+a:hover{
+color: red;
+
+}
+
 div {
             position: absolute;
             display: block;
             top: 0;
             height: 120px;
             width: 110px;
-            background: #15a5ed;
+            background: ;
             text-align: center;
             line-height: 30px;
             border-radius: 15px 15px 15px 15px;

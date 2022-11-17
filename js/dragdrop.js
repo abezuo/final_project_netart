@@ -19,7 +19,7 @@ divs = document.getElementsByTagName("div");
   the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
   the_last_mouse_position.y = e.clientY;
   var d = document.getElementById(the_moving_div);
-  d.style.border = "2px solid blue";     // highlight the border of the div
+  d.style.border = "2px solid yellow";     // highlight the border of the div
 
   var divs = document.getElementsByTagName("div");
   e.target.style.zIndex = divs.length;          // put this div  on top
