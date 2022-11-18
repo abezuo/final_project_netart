@@ -6,29 +6,54 @@
 }
 
 html {
-  background: url("../images/store.webp") no-repeat center center fixed;
+  background: url("../images/store_edit.webp") no-repeat center center fixed;
   background-size: cover;
+  cursor: url('../images/cursor-pointer.png'), auto;
 }
 
+body {
+
+
+}
+
+:root {
+  --highlight-color: null;
+}
+
+::selection {
+  background: var(--highlight-color);
+}
 
 h1 {
 font-family: orangekid, arial;
-color: white;
-font-size: 45px;
+color: #b09643;
+font-size: 65px;
 display: block;
 align-items: center;
 
 }
 
-a {
-color: yellow;
-font-family: orangekid, arial;
-font-size: 25px;
+h1:hover {
+cursor: ('../images/cursor-highlighter.png'),auto;
 
 }
 
-a:hover{
-color: red;
+a {
+color: #4a588e;
+font-family: orangekid, arial;
+font-size: 25px;
+line-height: 0.3px;
+
+}
+
+a:hover {
+color: #78a158;
+cursor: url('../images/cursor-hover.png'),auto;
+
+}
+
+#div3 {
+line-height: 20px;
 
 }
 
@@ -37,9 +62,10 @@ div {
             display: block;
             top: 0;
             height: 120px;
-            width: 110px;
+            width: 120px;
             background: ;
             text-align: center;
             line-height: 30px;
             border-radius: 15px 15px 15px 15px;
+            cursor: url('../images/cursor-move.png'),auto;
             }
